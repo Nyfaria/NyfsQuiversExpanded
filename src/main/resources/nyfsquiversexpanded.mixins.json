@@ -1,9 +1,12 @@
 {
   "required": true,
-  "package": "${project.group}.mixin",
+  "package": "com.nyfaria.nyfsquiversexpanded.mixin",
   "compatibilityLevel": "JAVA_16",
   "refmap": "${mod_id}.refmap.json",
-  "mixins": [],
+  "mixins": [
+    "EnderMaskMixin",
+    "PiglinGoldMixin"
+  ],
   "client": [],
   "minVersion": "0.8.4"
 }
